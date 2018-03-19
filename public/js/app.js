@@ -1,4 +1,4 @@
-var accessToken = "9e76696c39a8465c997dd576464787d1";
+var accessToken = "<<ACCESS-TOKEN>>";
 var baseUrl = "https://api.api.ai/v1/";
 $(document).ready(function () {
 	$("#input").keyup(function (event) {
