@@ -47,7 +47,7 @@ const http = require('http');
   * 
   */
  function makeHtml(resarr){
-   let html = `Here are your ${resarr.length} words`
+  let html = `Here are your ${resarr.length} ${(resarr.length > 1)?'words':'word'}`
    resarr.forEach(res => {
     let word = res.headword
       let pos = (res.part_of_speech != '' && res.part_of_speech != undefined) ? res.part_of_speech : 'Not Available';
