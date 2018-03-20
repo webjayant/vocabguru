@@ -287,12 +287,12 @@ div#response .res.ani .animate-ball:nth-child(4){
     height:0vh;
     -webkit-box-shadow: 0 6px 10px 0 rgba(44,189,165,0.14), 0 1px 18px 0 rgba(44,189,165,0.12), 0 3px 5px -1px rgba(44,189,165,0.3);
     box-shadow: 0 6px 10px 0 rgba(44,189,165,0.14), 0 1px 18px 0 rgba(44,189,165,0.12), 0 3px 5px -1px rgba(44,189,165,0.3);
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 .sidebar.active{
     width: 300px;
     height:200px;
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 ul.sidebar-links, ul.sidebar-links-bottom{
     list-style-type: none;
@@ -302,7 +302,7 @@ ul.sidebar-links, ul.sidebar-links-bottom{
 }
 .sidebar.active ul.sidebar-links, .sidebar.active ul.sidebar-links-bottom{
     opacity: 1;
-    transition: all 1.5s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 ul.sidebar-links a{
     color:#fff;
